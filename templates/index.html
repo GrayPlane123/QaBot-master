@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>QaBot Project</title>
+</head>
+<body>
+<div>
+    <h3>Question：</h3>
+    <form method="post">
+        <input name="kw" type="text"/>
+        <input type="submit"/>
+    </form>
+</div>
+<hr/>
+<div>
+    {% if ans %}
+        <h3>Answer:</h3>
+        <p>{{ ans }}</p>
+    {% endif %}
+</div>
+</body>
+</html>

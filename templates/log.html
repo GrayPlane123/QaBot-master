@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Logs</title>
+</head>
+<body>
+<button style="float: right; background-color: red;"><a href="/log?do=clean">Clean Logs</a></button>
+{% for log in logs %}
+    {{ log }} <br/>
+{% endfor %}
+</body>
+</html>
+

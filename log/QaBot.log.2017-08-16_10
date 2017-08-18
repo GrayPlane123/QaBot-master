@@ -1,0 +1,5 @@
+ERROR 2017-08-16 10:25:19,024 /usr/local/lib/python3.5/dist-packages/django/core/handlers/exception.py exception.py exception response_for_exception 80: Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+WARNING 2017-08-16 10:25:19,189 /usr/local/lib/python3.5/dist-packages/django/core/servers/basehttp.py basehttp.py basehttp log_message 124: "GET / HTTP/1.1" 400 69751
+ERROR 2017-08-16 10:26:08,963 /usr/local/lib/python3.5/dist-packages/django/core/servers/basehttp.py basehttp.py basehttp log_message 124: "GET / HTTP/1.1" 500 89204
+ERROR 2017-08-16 10:30:18,684 /usr/local/lib/python3.5/dist-packages/django/core/servers/basehttp.py basehttp.py basehttp log_message 124: "GET / HTTP/1.1" 500 89231
+ERROR 2017-08-16 10:30:22,671 /usr/local/lib/python3.5/dist-packages/django/core/servers/basehttp.py basehttp.py basehttp log_message 124: "GET / HTTP/1.1" 500 89366
